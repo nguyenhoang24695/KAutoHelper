@@ -50,12 +50,32 @@
   <ItemGroup>
     <Compile Include="ADBHelper.cs" />
     <Compile Include="ADBKeyEvent.cs" />
+    <Compile Include="AutoClient.cs" />
+    <Compile Include="AutoControl.cs" />
+    <Compile Include="BitmapConversion.cs" />
+    <Compile Include="CaptureHelper.cs" />
+    <Compile Include="EMouseKey.cs" />
+    <Compile Include="FindWindow.cs" />
     <Compile Include="Get_Text_From_Image.cs" />
+    <Compile Include="HARDWAREINPUT.cs" />
+    <Compile Include="HookGame.cs" />
     <Compile Include="ImageScanOpenCV.cs" />
+    <Compile Include="Info_Devices.cs" />
+    <Compile Include="INPUT.cs" />
+    <Compile Include="KEYBDINPUT.cs" />
+    <Compile Include="KeyCode.cs" />
+    <Compile Include="LDPlayer.cs" />
+    <Compile Include="MemoryHelper.cs" />
+    <Compile Include="MOUSEINPUT.cs" />
+    <Compile Include="MOUSEKEYBDHARDWAREINPUT.cs" />
     <Compile Include="NoxMultiIni.cs" />
+    <Compile Include="ParentProcessUtilities.cs" />
     <Compile Include="Port.cs" />
     <Compile Include="ProcessHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RECT.cs" />
+    <Compile Include="VKeys.cs" />
+    <Compile Include="WMessages.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
